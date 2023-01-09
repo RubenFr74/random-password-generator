@@ -7,15 +7,15 @@ generateButton.addEventListener('click', writePassword)
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 
 }
 
-var randomPasswordGenerated = '';
-
 // Prompts that come up after you click generate password
 function generatePassword() {
+
+  var randomPasswordGenerated = '';
+
   var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 12 but less than 128.");
 
   if (passwordLength >= 12 && passwordLength <= 128){
@@ -37,6 +37,7 @@ function generatePassword() {
 
   return randomPasswordGenerated;
   } else {return generatePassword ()}
+
 }
 // Random character generating function
 function getRandomCharacter (isNumber, isLower, isUpper, isSpecial) {
@@ -56,7 +57,7 @@ function getRandomCharacter (isNumber, isLower, isUpper, isSpecial) {
     getSpecialCharacters: function() {
       return specialCharacters[Math.floor(Math.random() * specialCharacters.length)]
     }
-
+  
   };
   
   var randomNumberPicked = Math.floor(Math.random() * 4);
