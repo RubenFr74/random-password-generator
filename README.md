@@ -13,12 +13,15 @@ If you would like to see how the website looks and works like just click on the 
 ## Screenshots
 
 Website:
+
 ![image](https://user-images.githubusercontent.com/119752452/211236201-a6573dce-12dc-415b-bf2c-c0457a55fa57.png)
 
 Prompt:
+
 ![image](https://user-images.githubusercontent.com/119752452/211236293-d51763e4-a5c7-454b-a971-ff4b52c310cf.png)
 
 Result:
+
 ![image](https://user-images.githubusercontent.com/119752452/211236345-29d12cbd-0658-4248-998b-d6ee9755c5cb.png)
 
 
